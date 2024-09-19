@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&inn);
 
     if((int)inl+inn>26){
-        inl = (int)inl+inn%26;
+        inl = (int)inl+inn-26;
     }
     else inl = (int)inl+inn;
     printf("%c",inl);
