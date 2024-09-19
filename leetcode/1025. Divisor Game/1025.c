@@ -8,9 +8,18 @@ int main(){
     scanf("%d",n);
 
     while(c==1){
-        int a,b;
-        if
-
+        int a,b,t;
+        if(n%2==0)
+        {
+            n-=1;
+            t++;
+        }
+        else {
+            for(int i=n;i<0;i++)
+            {
+                
+            }
+        }
     }
 
 }

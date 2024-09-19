@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&b);
     scanf("%d",&c);
     
-    if(a>b&&a>c)
+    if(a>b&&a>c)    
     {
         if (c>b)
         {
