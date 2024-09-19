@@ -19,18 +19,20 @@ int main(){
     int n1=0;
     int x[2][10];
     scanf("%d",&n1);
+    int j=0;
     for (int i=0;i<n1;i++)
     {
-        printf("%d",i);
-        scanf("%d",&x[1][i]);
-        scanf("%d",&x[2][i]);
+        scanf("%d",&x[1][j]);
+        scanf("%d",&x[2][j]);
+        j++;
         
     }
-
+    j=0;
     for (int i=0;i<n1;i++)
     {
-     printf("%d\n",x[2][i]);
-     printf("%d\n",x[2][i]);
+     printf
+     printf("%d\n",lcm(x[1][j],x[2][j]));
+     j++;
     }
     return 0;
 }
