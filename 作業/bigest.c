@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<time.h>
 #include <stdlib.h>
-#include <algorithm>
 
 int main(){
     int a,b,c;
