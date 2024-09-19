@@ -16,16 +16,21 @@ int lcm (int x , int y)
 }
 
 int main(){
-    int n1,n2,n3,n4,n5,n6,n7;
+    int n1=0;
+    int x[2][10];
     scanf("%d",&n1);
-    scanf("%d",&n2);
-    scanf("%d",&n3);
-    scanf("%d",&n4);
-    scanf("%d",&n5);
-    scanf("%d",&n6);
-    scanf("%d",&n7);
-    printf("%d\n",lcm(n2,n3));
-    printf("%d\n",lcm(n4,n5));
-    printf("%d\n",lcm(n6,n7));
+    for (int i=0;i<n1;i++)
+    {
+        printf("%d",i);
+        scanf("%d",&x[1][i]);
+        scanf("%d",&x[2][i]);
+        
+    }
+
+    for (int i=0;i<n1;i++)
+    {
+     printf("%d\n",x[2][i]);
+     printf("%d\n",x[2][i]);
+    }
     return 0;
 }
