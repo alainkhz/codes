@@ -8,7 +8,7 @@ int main(){
     scanf("%c",&inl);
     scanf("%d",&inn);
 
-    if((int)inl+inn>26){
+    if((int)inl+inn>122){
         inl = (int)inl+inn-26;
     }
     else inl = (int)inl+inn;
